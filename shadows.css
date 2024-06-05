@@ -1,0 +1,25 @@
+h1 {
+    text-shadow: 3px 3px 5px rgb(212, 58, 58), -3px -3px 5px rgb(2, 191, 249);
+    /* horizontal offset, vertical offset, blur, color */ 
+    
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px rgb(212, 58, 58), -3px -3px 5px rgb(2, 191, 249);
+    /* horizontal offset, vertical offset, blur, color */ 
+
+    margin-bottom: 50px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px;
+    /* horizontal offset, vertical offset, blur, color */ 
+}

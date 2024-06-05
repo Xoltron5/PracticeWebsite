@@ -1,61 +1,16 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Favicons should at least be 96 x 96 pixels -->
-        <link rel="icon" href="images/favicon/favicon.jpg"> 
-        <title>Website</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <link rel="stylesheet" href="shadows.css">
+</head>
+<body>
+    <h1>Denis</h1>
 
-        <a href="lyrics.html" target="_blank" title="Goes to song lyrics page">
-            song lyrics
-        </a>
+    <div id="box1"></div>
 
-        <a href="https://en.wikipedia.org/wiki/Tea" target="_blank">
-            <img src="images/img/Tea.jpg" alt="Picture of some tea" width="500px">
-        </a>
-    
-        <audio controls autoplay muted loop>
-            <source src="songs/Losing My Mind - NEFFEX.mp3">
-            <source src="songs/Losing My Mind - NEFFEX.wav">
-        </audio> 
-
-        <video controls autoplay muted loop width="100px">
-            <source src="videos/donate.mp4">
-            <source src="videos/donate.webm">
-        </video>
-
-        <!-- GROUP TOGETHER HTML -->
-        <!-- <span> inline container to group elements for styling purposes  -->
-        <!-- <div> block container to group elements for styling purposes  -->
-
-        <table border="2px solid" style="background-color: black;">
-            <tr  style="background-color: lightblue;">
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th>Saturday</th>
-                <th>Sunday</th>
-            </tr>
-            <tr align="center"  style="background-color: aliceblue;">
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>9-5</td>
-                <td>10-2</td>
-                <td>Closed</td>
-            </tr>
-
-
-            <button  onclick = "printHello()" style="font-size: 1.2em; background-color: grey; color: lightblue; border-radius: 5px;">Click me!</button>
-            <p id="greeting">Hello</p>
-
-            <script>
-                function printHello() {
-                    document.getElementById("greeting").innerHTML = "Goodbye"
-                }
-            </script>
-        </table>
-    </body>
+    <div id="box2"></div>
+</body>
 </html>
