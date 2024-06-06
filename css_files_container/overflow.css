@@ -1,0 +1,14 @@
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden; /* default is visible */
+
+
+    /*
+        overflow: clip;
+        is used with 
+        overflow-clipmargin: 20px;
+        Used to specify how much content 
+        that overflows is displayed.
+    */
+}

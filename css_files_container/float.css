@@ -1,0 +1,15 @@
+
+body {
+    border: 3px solid;
+    /* This property prevents anything that is floating to overflow */
+    display: flow-root; 
+}
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}
