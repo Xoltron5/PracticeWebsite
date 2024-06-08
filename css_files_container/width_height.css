@@ -1,0 +1,8 @@
+.box {
+    border: 2px solid;
+    /* 
+        auto is default. if set to auto width/height will be calculated autoimatically
+    */
+    height: auto;
+    width: 50%;
+}

@@ -1,0 +1,17 @@
+#container {
+    border: 2px solid;
+}
+
+#container p {
+    background-color: rgb(241, 241, 86);
+}
+
+#container > p {
+    background-color: rgb(215, 156, 166);
+}
+
+/* 
+    #3 is not a child it is a grand child that is why it's not selected when using >
+    #3 is a descendant of container. All children are descendants, but not all 
+    descendants are child. 
+*/
