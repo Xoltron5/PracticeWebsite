@@ -1,0 +1,74 @@
+body {
+    background-color: #1A1A1A;
+}
+
+.container {
+    display: flex;
+    border: 10px solid;
+    height: 90vh;
+    flex-direction: row; /* default is row*/
+    justify-content: center; /* default is flex-start */
+    /*  sets aligment on the main axis (x axis).
+        space-between sets the extra space evenly between elements
+        space-around outside area is also included
+        space-evenly
+    */
+
+    align-items: flex-end;
+    /*  sets aligment on the cross axis (y axis).
+        baseline text in the divs is alligned. 
+    */
+
+    flex-wrap: wrap; /* default is nowrap */ 
+    /* will cause elements to wrap if there is no space. 
+    */
+
+    align-content: center;
+    /*  flex wrap is also used with another property known as align-content
+        flex-start, flex-end and center 
+        will remove all the space around the items 
+
+        If you are using this you don't need to use align-items
+        It is a replacment if you are using flex wrap
+    */
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: #e8e8e8;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: #be2727;
+    /*  align-self: start;
+        justify-self: start; 
+        does the same as align-items but it's for indivital elements
+    */
+}
+
+#box2 {
+    background-color: #beb927;
+}
+
+#box3 {
+    background-color: #27be5e;
+}
+
+#box4 {
+    background-color: #278cbe;
+}
+
+#box5 {
+    background-color: #be279b;
+    order: -1; /* this places box 2 at the end */
+    /*  
+        if set to 1 it will place it at the front. Similar to z-index
+    */
+}
